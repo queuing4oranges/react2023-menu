@@ -254,6 +254,67 @@ ul {
 }
 /* ============= PROJECT CSS =============== */
 
+.title {
+  margin: 20px auto;
+}
+
+.btn-container {
+  max-width: 30vw;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-container{
+  width: 250px;
+  height: 200px;
+  overflow:hidden;
+}
+
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+.subtitle {
+margin-top: 10px;
+}
+
+.category {
+margin-top: 10px;
+margin-bottom: 10px;
+  color: orangered
+}
+
+.price {
+  display: inline-block;
+  padding: 10px;
+  color: purple;
+  background-color: yellowgreen;
+}
+
+.menu-container {
+  max-width: 70vw;
+  margin: auto;
+}
+
+.menu {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.menu-item {
+  max-width: 250px;
+  margin: 20px;
+}
+
+
+/* 
+
 .menu {
   padding: 5rem 0;
 }
@@ -327,4 +388,4 @@ ul {
     width: 95vw;
     grid-template-columns: repeat(3, 1fr);
   }
-}
+} */
